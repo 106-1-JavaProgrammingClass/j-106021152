@@ -5,6 +5,6 @@ public class Main12 {
         Scanner sum = new Scanner(System.in);
         double a = sum.nextDouble();
        int n = sum.nextInt();
-       System.out.println();
+       System.out.println(Math.round(a*Math.pow(10,n))/Math.pow(10,n));
     }
 }
